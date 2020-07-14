@@ -6,6 +6,8 @@
     "--load-plugins=pylint_django",
     "--errors-only"
   ],
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
   "search.exclude": {
     "**/site-packages": true,
     "**htmlcov/": true,
@@ -13,8 +15,7 @@
     "**media/": true
   },
   "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
+    "**/.git": true,
     "**/site-packages": true,
     "**htmlcov/": true,
     "**env/": true,
