@@ -11,7 +11,8 @@
   "[python]": {
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
-    }
+    },
+    "editor.rulers": [89]
   },
   "search.exclude": {
     "**/site-packages": true,
