@@ -32,7 +32,7 @@
     "**/.DS_Store": true,
     "**/__pycache__": true,
     "venv": true,
-    "env*": true,
+    "env": true,
     "**/media": true,
     ".coverage": true,
     "**htmlcov/": true,
